@@ -1,0 +1,32 @@
+#rootMenu-0
+{
+	position: absolute;
+	border : 1px solid black;
+	padding : 3px;
+}
+
+.menu
+{
+	width : 5em;
+	height : 1.5em;
+	cursor : pointer;
+	border : 1px solid black;
+}
+
+.subMenu
+{
+	position: absolute;
+	left : 100%;
+	display: inline-block;
+	width : 0;
+	height : 1.5em;
+	overflow : hidden;
+	vertical-align: top;
+	transition : all .8s ease;
+}
+
+.menu:hover .subMenu
+{
+	width : 5em;	
+	border : 1px solid black;
+}

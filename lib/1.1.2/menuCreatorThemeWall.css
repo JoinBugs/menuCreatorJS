@@ -1,0 +1,38 @@
+#rootMenu-0.theme-wall-rootMenu
+{
+  background-color : rgba( 100, 100, 20, .5 );
+  border : 2px solid rgba( 100, 100, 20, 1 );
+  padding : 2%;
+  border-radius : .1em;
+  font-family : "bell mt";
+}
+
+.menu.theme-wall-menu
+{
+  cursor : pointer;
+  border : 2px solid white;
+  border-radius : .8em;
+  background-color : rgba( 0, 100, 70, .7 );
+  font-weight : bold;
+  color : rgba( 240, 240, 240, .9 );
+  text-align: center;
+  transition : all .4s ease .2s;
+}
+
+.menu.theme-wall-menu:hover
+{
+  background-color : rgba( 100, 80, 0, .7 );
+  color : rgba( 0, 0, 0, .7);
+}
+
+.subMenu.theme-wall-subMenu
+{
+  border : 1px solid rgba( 100, 100, 20, 1 );
+  border-radius : .1em;
+  background-color : rgba( 100, 80, 0, .7 );
+}
+
+.subMenu:hover.theme-wall-subMenu
+{
+  color : white;
+}

@@ -1,0 +1,168 @@
+/*
+    Basics For Display Menu
+*/
+#rootMenu-0
+{
+	position: absolute;
+	padding : 3px;
+}
+
+.menu
+{
+	margin : 1px;
+}
+
+.subMenu
+{
+	overflow : hidden;
+}
+
+#rootMenu-0.theme-sky-rootMenu
+{
+  background-color : rgba( 10, 100, 250, .5 );
+  border-radius : .1em;
+  font-family : "bell mt";
+}
+
+/*
+    Themes SKY
+*/
+.menu.theme-sky-menu
+{
+  cursor : pointer;
+  border : 1px solid white;
+  border-radius : .1em;
+  background-color : rgba( 0, 100, 70, .7 );
+  font-weight : bold;
+  color : rgba( 240, 240, 240, .9 );
+  text-align: center;
+}
+
+.subMenu.theme-sky-subMenu
+{
+  border : 0px solid white;
+  border-radius : .1em;
+  background-color : rgba( 0, 90, 50, .5 );
+}
+
+.subMenu:hover.theme-sky-subMenu
+{
+  border : 1px solid rgba( 0, 100, 200, 1 );
+  color : rgba( 90, 100, 0, .9 );
+}
+
+#rootMenu-0.theme-wall-rootMenu
+{
+  background-color : rgba( 100, 100, 20, .5 );
+  border : 2px solid rgba( 100, 100, 20, 1 );
+  padding : 2%;
+  border-radius : .1em;
+  font-family : "bell mt";
+}
+
+/*
+    Theme WALL
+*/
+.menu.theme-wall-menu
+{
+  cursor : pointer;
+  border : 2px solid white;
+  border-radius : .8em;
+  background-color : rgba( 0, 100, 70, .7 );
+  font-weight : bold;
+  color : rgba( 240, 240, 240, .9 );
+  text-align: center;
+  transition : all .4s ease .2s;
+}
+
+.menu.theme-wall-menu:hover
+{
+  background-color : rgba( 100, 80, 0, .7 );
+  color : rgba( 0, 0, 0, .7);
+}
+
+.subMenu.theme-wall-subMenu
+{
+  border : 1px solid rgba( 100, 100, 20, 1 );
+  border-radius : .1em;
+  background-color : rgba( 100, 80, 0, .7 );
+}
+
+.subMenu:hover.theme-wall-subMenu
+{
+  color : white;
+}
+
+/*
+    Style COL
+*/
+.menu.style-col-menu
+{
+  display : inline-block;
+}
+
+.subMenu.style-col-subMenu
+{
+  position : absolute;
+  display: inline-block;
+  width : 0;
+  height : 1.5em;
+  left : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.style-col-menu .subMenu
+{
+  width : 10em;
+  border-width: 1px;
+}
+
+/*
+    Style DOWN
+*/
+.menu.style-down-menu
+{
+  display: inline-block;
+	vertical-align: top;
+}
+
+.subMenu.style-down-subMenu
+{
+  position : absolute;
+  width : 0;
+  height : 0;
+  top : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.style-down-menu .subMenu
+{
+  width : 10em;
+  height : 1.5em;
+  border-width: 1px;
+  z-index: 50;
+}
+
+/*
+    Style ROW
+*/
+.menu.style-row-menu
+{
+  display: block;
+}
+
+.subMenu.style-row-subMenu
+{
+  position : absolute;
+  display: inline-block;
+  width : 0;
+  height : 1.5em;
+  left : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.style-row-menu .subMenu
+{
+  width : 10em;
+  border-width: 1px;
+}

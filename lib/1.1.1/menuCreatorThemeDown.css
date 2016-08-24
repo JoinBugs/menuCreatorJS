@@ -1,0 +1,22 @@
+.menu.theme-down-menu
+{
+  display: inline-block;
+	vertical-align: top;
+}
+
+.subMenu.theme-down-subMenu
+{
+  position : absolute;
+  width : 0;
+  height : 0;
+  top : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.theme-down-menu .subMenu
+{
+  width : 10em;
+  height : 1.5em;
+  border-width: 1px;
+  z-index: 50;
+}

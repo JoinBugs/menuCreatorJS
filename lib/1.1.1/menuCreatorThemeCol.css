@@ -1,0 +1,20 @@
+.menu.theme-col-menu
+{
+  display : inline-block;
+}
+
+.subMenu.theme-col-subMenu
+{
+  position : absolute;
+  display: inline-block;
+  width : 0;
+  height : 1.5em;
+  left : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.theme-col-menu .subMenu
+{
+  width : 10em;
+  border-width: 1px;
+}

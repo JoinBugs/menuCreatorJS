@@ -1,0 +1,19 @@
+#rootMenu-0
+{
+	position: absolute;
+	padding : 3px;
+}
+
+.menu
+{
+	margin : 1px;
+}
+
+.subMenu
+{
+	position: absolute;
+	left : 100%;
+	display: inline-block;
+	overflow : hidden;
+	vertical-align: top;
+}

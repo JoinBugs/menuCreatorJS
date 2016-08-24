@@ -1,0 +1,42 @@
+#rootMenu-0
+{
+  background-color : rgba( 10, 100, 250, .5 );
+  border-radius : .1em;
+  font-family : "bell mt";
+}
+
+.menu
+{
+  display : inline-block;
+  cursor : pointer;
+  border : 1px solid white;
+  border-radius : .1em;
+  background-color : rgba( 0, 100, 70, .7 );
+  font-weight : bold;
+  color : rgba( 240, 240, 240, .9 );
+  text-align: center;
+}
+
+.subMenu
+{
+  width : 0;
+  height : 0;
+  border : 0px solid white;
+  border-radius : .1em;
+  background-color : rgba( 0, 90, 50, .5 );
+  transition : all .8s ease;
+}
+
+.subMenu:hover
+{
+  border : 1px solid rgba( 0, 100, 200, 1 );
+  color : rgba( 90, 100, 0, .9 );
+}
+
+.menu:hover .subMenu
+{
+  width : 10em;
+  height : 1.5em;
+  border-width: 1px;
+  z-index: 50;
+}

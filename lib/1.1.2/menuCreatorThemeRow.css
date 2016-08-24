@@ -1,0 +1,20 @@
+.menu.style-row-menu
+{
+  display: block;
+}
+
+.subMenu.style-row-subMenu
+{
+  position : absolute;
+  display: inline-block;
+  width : 0;
+  height : 1.5em;
+  left : 100%;
+  transition : all .8s ease;
+}
+
+.menu:hover.style-row-menu .subMenu
+{
+  width : 10em;
+  border-width: 1px;
+}
